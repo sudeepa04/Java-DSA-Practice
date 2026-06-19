@@ -1,0 +1,11 @@
+public static void main(String[] args){
+int num=112;
+int sum=0;
+while(num!=0){
+int digit=num%10;
+int sum=sum+digit;
+int num=num/10;
+}
+System.out.println(sum+ "");
+}
+}
